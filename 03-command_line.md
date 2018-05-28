@@ -18,9 +18,26 @@ Here's a list of items with which you should be familiar:
 * listing hidden files
 * copying a file from one directory to another
 
-Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
+Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`pwd`: print current directory
+`mkdir`: make directory
+`rm -r`: remove directory
+`touch`: create empty file
+`rm`: remove file
+`mv`: move/rename file
+`ls -a`: list all (including hidden) files
+`cp copy_file copy_directory`: copy copy_file to copy_directory
+`>`: redirect output of command, overwrite file
+`>>`: same as `>`, but append file instead
+`<`: redirect input of command
+`|`: redirect output of command into another command
+`sort`: sort lines of text alphabetically
+`uniq`: filter duplicates, alphabetize lines
+`grep (-i) (-R(l))`: find text pattern, return lines (case sensitive) (search directory, (return only filename, not lines))
+`sep 's/text_find/text_replace(/g)'`: find and replace first instance (globally) text_find and replace with text_replace
+`nano`: open text editor
+`source`: read text editor file
 
 ---
 
@@ -35,7 +52,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`: list files
+`ls -a`: list all files
+`ls -l`: `ls` in long format
+`ls -lh`: `ls -l` with readable file size
+`ls -lah`: same as `ls -a` and `ls -lh`
+`ls -t`: `ls` with sorted time
+`ls -Glp`: `ls -l` with directories in color and with `/`
 
 ---
 
@@ -43,7 +66,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls -l`
+`ls -G`
+`ls -t`
+`ls -d`
+`ls -a`
 
 ---
 
@@ -51,7 +78,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+`xargs` builds a command pipeline from a standard input as arguments. `xargs` can be used with `find` to replace/remove/etc. files and directories. For example, `find -name "ex" | xargs rm` finds the text ex in the files in current directory and remove them.
  
 
