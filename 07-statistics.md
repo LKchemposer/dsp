@@ -99,7 +99,13 @@ P(identical|twin) = 5/17
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Bayesian | Frequentist
+-------- | -----------
+Uses probabilities both of data and of hypotheses | Hypothesis depends only on data (uses only probabilities of data)
+Requires knowledge of the prior (probability of hypothesis <br> without data being considered) | Does not require the prior
+Can be computationally expensive; used more frequently in computer sciences | Less computationally expensive; used in life sciences 
+Solution-focused; prior leads directly to decision making | Requires data to confirm or reject hypothesis to make decisions
+Logically rigorous | Ad-hoc yet useful proven by long history of scientific rigor
 
 ---
 
