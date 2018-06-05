@@ -99,7 +99,7 @@ P(identical|twin) = 5/17
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
-Bayesian | Frequentist
+[Bayesian](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading20.pdf) | Frequentist
 -------- | -----------
 Uses probabilities both of data and of hypotheses | Hypothesis depends only on data (uses only probabilities of data)
 Requires knowledge of the prior (probability of hypothesis <br> without data being considered) | Does not require the prior
