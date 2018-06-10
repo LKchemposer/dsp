@@ -17,4 +17,4 @@ def CohenEffectSize(group1, group2):
 
 CohenEffectSize(f_lb, o_lb)
 ```
-The Cohen's D of `-0.088672927072602` indicates that first baby is less than 0.1 pound lighter than non-first babies. The difference is thereby not significant, considering the fact that babies are typically 7 lbs; a difference in 0.1 pound correponds to only 1.4% of the baby's total weight.
+The Cohen's D of `-0.088672927072602` indicates that first baby is less than 0.1 lb lighter than non-first babies. The difference is thereby not significant, considering the fact that babies are typically 7 lbs; a difference in 0.1 lb correponds to only 1.4% of the baby's total weight.
