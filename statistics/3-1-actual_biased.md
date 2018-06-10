@@ -16,4 +16,6 @@ print('Biased mean', pmf_biased.Mean())
 print('Actual mean', pmf_actual.Mean())
 ```
 
+![alt text](https://github.com/LKchemposer/dsp/blob/master/img/PMF_biased.png)
+
 From the actual PMF, the biased PMF is set up by multiplying the probability of the number of children reported by their respective number of children. The peak of the biased distribution is at 2 children, whereas that of the actual distribution is at 0. The biased mean of `2.403679100664282` is 1.4 children higher than the actual mean (`1.024205155043831`).
