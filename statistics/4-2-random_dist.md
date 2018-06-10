@@ -11,9 +11,15 @@ cdf = ts2.Cdf(num, label='CDF')
 
 tp.Pmf(pmf)
 tp.Config(xlabel='#', ylabel='PMF')
+```
 
+![alt text](https://github.com/LKchemposer/dsp/blob/master/img/PMF_random.png)
+
+```
 tp.Cdf(cdf)
 tp.Config(xlabel='#', ylabel='CDF')
 ```
+
+![alt text](https://github.com/LKchemposer/dsp/blob/master/img/CDF_random.png)
 
 The PMF shows the distribution of the random number generator, and the CDF shows its cummulative distribution function. The PMF looks extremely dense (as it is uniform), peaks and valleys are not visible. The CDF, on the other hand, looks clean, and is almost perfectly linear, indicating that the distribution is indeed uniform.
