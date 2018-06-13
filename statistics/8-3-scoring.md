@@ -67,4 +67,4 @@ for i in range(1, 16):
 
 ![alt text](https://github.com/LKchemposer/dsp/blob/master/img/CI_vs_lam_game_sims.png)
 
-The estimation method is biased because the RMSE is largely positive and is significant (33% of `lam`). Moreover, as value of `lam` increases, SE and CI increase; our estimate of λ becomes more variable and less reliable.
+The estimation method is biased because the RMSE is largely positive and is significant (33% of `lam`). Moreover, as value of `lam` increases, SE and CI increase; as the true goal-scoring rate increases, our estimate of it becomes more variable and less reliable.
