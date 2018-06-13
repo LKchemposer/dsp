@@ -1,6 +1,7 @@
 [Think Stats Chapter 8 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2009.html#toc77) (scoring)
 
-```def Simulate(n, iters=1000):
+```
+def Simulate(n, iters=1000):
     lam = 2
     Ls = []
     for _ in range(iters):
@@ -17,6 +18,10 @@
     print('CI(L)', cdf.Percentile(5), cdf.Percentile(95)) 
 
 Simulate(10)
+```
+```
+SE(L) 0.806767119533259
+CI(L) 1.2787201893441824 3.7027434543496995
 ```
 
 ![alt text](https://github.com/LKchemposer/dsp/blob/master/img/SE_vs_L_expo.png)
@@ -39,3 +44,5 @@ for i in range(4, 21, 2):
 ```
 
 ![alt text](https://github.com/LKchemposer/dsp/blob/master/img/SE_vs_n_expo.png)
+
+SE and CI are `0.806767119533259` and 2.5, respectively. SE decreases as sample size increases, which makes sense because the more samples there are in each simulation, the smaller the variability from the assumed population's mean.
